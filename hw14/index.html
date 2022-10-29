@@ -204,7 +204,7 @@
       作業14為Pose Animator應用，使用已繪製好的SVG角色動起來，透過攝影機在瀏覽器中進行展示。這是TensorFlow.js中使用PoseNet和Facemesh的應用。
       如同一般動畫製作，將人物的關節骨架與需要合成的動畫人物合併依樣，在繪製要展示的圖案時，需要有skeleton為骨架，在下一層再繪製illustration/path(實際繪製圖案)，
       完成設計後再轉為SVG格式檔案，丟入Pose Animator。這項應用在目前須多商業應用如彩妝擴增實境試裝，或者影像虛實整合上都還能夠應用，甚至套用到建模好的影像上，亦可呈現3D效果，相當有趣。
-      
+      此次花了很多時間在建立向量圖層，在練習中發現需要將各個塗層都分開並建立在各自的路徑圖層才能完整的呈現。
     </div>
   </div>
 
@@ -213,6 +213,8 @@
     <div class="col-md-12 twenty">
       作業14成果...
          <img class="withborder" src="./Shiny_lion" height="600"> 
+    </div>
+     實際測試視訊網站 https://yopaper.github.io/CombinedPoseAnimator/camera.html
     </div>
   </div>
 
